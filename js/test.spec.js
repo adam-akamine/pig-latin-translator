@@ -26,4 +26,9 @@ describe('translator.translateToPigLatin()', function () {
   });
 
   // check for phrase translation
+  it('should convert a pig latin string to english', function () {
+    var phrase = "Spider Pig Spider Pig";
+    var translated = translator.translateToPigLatin(phrase);
+    expect(translated).to.equal("ider-spay ig-pay ider-spay ig-pay");
+  });
 });
