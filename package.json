@@ -1,0 +1,24 @@
+{
+  "name": "pig-latin-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 'js/*.spec.js'",
+    "watch": "mocha -w 'js/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kekuso/pig-latin-translator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kekuso/pig-latin-translator/issues"
+  },
+  "homepage": "https://github.com/kekuso/pig-latin-translator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
